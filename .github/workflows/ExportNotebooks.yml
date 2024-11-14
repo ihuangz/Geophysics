@@ -57,7 +57,7 @@ jobs:
             - name: 🔀 Combine semesters into single site
               run: |
                 mkdir www
-                mv _site www
+                mv _site www/Geophy2025
                 mv extra_outputs/* www
 
             - name: 🚀 Deploy to GitHub Pages (main)
