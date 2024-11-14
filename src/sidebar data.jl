@@ -8,13 +8,14 @@ Dict(
     ],
     :about => Dict(
         :authors => [
-            (name = "Instructor One", url = "https://www.the-one.eu"),
-            (name = "Second Instructor", url = "https://www.the-second.com")
+            (name = "黄周传", url = "https://es.nju.edu.cn/hzc/list.htm"),
+            (name = "Z. Huang", url = "https://es.nju.edu.cn/hzc_en/list.htm")
         ],
-        :title => "A Great Course",
-        :subtitle => "Even Greater Than You Thought",
-        :institution => "University of Greatness",
-        :institution_url => "http://www.uva.nl",
+        :title => "Fundamentals of Geophysics",
+        :subtitle => "For undergraduates",
+        :term => "Spring 2025",
+        :institution => "Nanjing University",
+        :institution_url => "https://www.nju.edu.cn",
         :institution_logo => "julia-logo-color.svg",
         :institution_logo_darkmode => "julia-logo-dark.svg"
     )
