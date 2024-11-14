@@ -58,7 +58,6 @@ jobs:
               run: |
                 mkdir www
                 mv _site www/Geophy2025
-                mv extra_outputs/* www
 
             - name: 🚀 Deploy to GitHub Pages (main)
               if: github.event_name == 'push' && github.ref == 'refs/heads/main'
