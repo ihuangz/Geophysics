@@ -1,6 +1,6 @@
 ---
-title: "Software installation"
-tags: [preliminaries"]
+title: "Software"
+tags: ["preliminaries"]
 order: 1
 layout: "md.jlmd"
 ---
