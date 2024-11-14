@@ -3,19 +3,19 @@ Dict(
         "welcome" => collections["welcome"].pages,
         "Preliminaries" => collections["preliminaries"].pages,
         "Module 2: Social Science & Data Science" => collections["module2"].pages,
-        "Module 3: Seismology" => collections["module3"].pages,
+        #"Module 3: Climate Science" => collections["module3"].pages,
 
     ],
     :about => Dict(
         :authors => [
-            (name = "黄周传", url = "https://es.nju.edu.cn/hzc/list.htm"),
-            (name = "Z. Huang", url = "https://es.nju.edu.cn/hzc_en/list.htm")
+            (name = "Instructor One", url = "https://www.the-one.eu"),
+            (name = "Second Instructor", url = "https://www.the-second.com")
         ],
-        :title => "Fundamentals of Geophysics",
-        :subtitle => "Spring 2025",
-        :term => "Spring 2025",
-        :institution => "Nanjing University",
-        :institution_url => "https://www.nju.edu.cn",
+        :title => "A Great Course",
+        :subtitle => "Even Greater Than You Thought",
+        :term => "Spring 2023",
+        :institution => "University of Greatness",
+        :institution_url => "http://www.uva.nl",
         :institution_logo => "julia-logo-color.svg",
         :institution_logo_darkmode => "julia-logo-dark.svg"
     )
