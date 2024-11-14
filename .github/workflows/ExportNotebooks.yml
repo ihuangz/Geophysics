@@ -60,7 +60,7 @@ jobs:
               with:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 BRANCH: output
-                FOLDER: www
+                FOLDER: _site
                 CLEAN_EXCLUDE: |
                   previews/*
     
@@ -70,5 +70,5 @@ jobs:
               with:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 BRANCH: output
-                FOLDER: www
+                FOLDER: _site
                 TARGET_FOLDER: "previews/PR${{ github.event.number }}" # The website preview is going to be stored in the previews subfolder
