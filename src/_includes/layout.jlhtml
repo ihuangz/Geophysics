@@ -150,8 +150,10 @@ $(pluto_head)
                 <div class="logos">
                     <picture title=$(about[:institution])>
                         <source srcset="$(root_url)/assets/$(about[:institution_logo_darkmode])" media="(prefers-color-scheme: dark)" />
-                        <img src="$(root_url)/assets/$(about[:institution_logo])">
-                        <img src="$(root_url)/assets/$(about[:julia_logo])">
+                        <table><tr>
+                           <td><img src="$(root_url)/assets/$(about[:institution_logo])" border=0></td>
+                           <td><img src="$(root_url)/assets/$(about[:julia_logo])" border=0></td>
+                        </tr></table>
                     </picture>
                 </div>
                 """)
