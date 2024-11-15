@@ -84,5 +84,3 @@ jobs:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                 BRANCH: output
                 FOLDER: ./NJUGeophy2025
-                CLEAN_EXCLUDE: |
-                  previews/*
