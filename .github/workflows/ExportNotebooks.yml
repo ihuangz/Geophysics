@@ -75,9 +75,11 @@ jobs:
                 TARGET_FOLDER: "previews/PR${{ github.event.number }}" # The website preview is going to be stored in the previews subfolder
 
 
-            - name: 🔀 Combine semesters into single site for backup
+            - name: 🔀 Combine semesters into single site
               run: |
                 cp -rf _site NJUGeophy2025
+
+            - name: 🔀 Publish semesters for backup
               if: github.event_name == 'push' && github.ref == 'refs/heads/main'
               uses: JamesIves/github-pages-deploy-action@releases/v3
               with:
