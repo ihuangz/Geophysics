@@ -54,10 +54,6 @@ jobs:
               with:
                 path: generation_report.html
             
-
-            - name: 🔀 Combine semesters into single site
-              run: |
-                cp -rf _site NJUGeophy2025
                 
             - name: 🚀 Deploy to GitHub Pages (main)
               if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -77,3 +73,16 @@ jobs:
                 BRANCH: output
                 FOLDER: ./_site
                 TARGET_FOLDER: "previews/PR${{ github.event.number }}" # The website preview is going to be stored in the previews subfolder
+
+
+            - name: 🔀 Combine semesters into single site for backup
+              run: |
+                cp -rf _site NJUGeophy2025
+              if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+              uses: JamesIves/github-pages-deploy-action@releases/v3
+              with:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                BRANCH: output
+                FOLDER: ./NJUGeophy2025
+                CLEAN_EXCLUDE: |
+                  previews/*
