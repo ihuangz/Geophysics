@@ -16,7 +16,7 @@ Dict(
         :institution_url => "https://www.nju.edu.cn",
         :institution_logo => "nju-logo.png",
         :institution_logo_darkmode => "nju-logo-dark.png",
-        :julia_logo => "julia-logo-color.svg",
-        :julia_logo_darkmode => "julia-logo-dark.svg"
+        :julia_logo => "julia-logo-color.png",
+        :julia_logo_darkmode => "julia-logo-dark.png"
     )
 )
