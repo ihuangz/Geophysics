@@ -149,11 +149,11 @@ $(pluto_head)
                 @htl("""
                 <div class="logos">
                     <picture title=$(about[:institution])>
-                        <img src="$(root_url)/assets//$(about[:institution_logo])">
+                        <img src="$(root_url)/assets/$(about[:institution_logo])" width="50%">
                     </picture>
                     <picture title="Julia Programming Language">
                         <source srcset="$(root_url)/assets/$(about[:institution_logo_darkmode])" media="(prefers-color-scheme: dark)" />
-                        <img src="$(root_url)/assets/$(about[:julia_logo])">
+                        <img src="$(root_url)/assets/$(about[:julia_logo])" width="50%">
                     </picture>
                 </div>
                 """)
