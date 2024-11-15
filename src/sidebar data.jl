@@ -14,7 +14,9 @@ Dict(
         :subtitle => "Spring 2025",
         :institution => "Nanjing University",
         :institution_url => "https://www.nju.edu.cn",
-        :institution_logo => "julia-logo-color.svg",
-        :institution_logo_darkmode => "julia-logo-dark.svg"
+        :institution_logo => "nju-logo.png",
+        :institution_logo_darkmode => "nju-logo-dark.png"
+        :julia_logo => "julia-logo-color.svg",
+        :julia_logo_darkmode => "julia-logo-dark.svg"
     )
 )
