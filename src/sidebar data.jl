@@ -3,8 +3,6 @@ Dict(
         "简介" => collections["introduction"].pages,
         "原理" => collections["theory"].pages,
         "方法" => collections["method"].pages,
-        "应用" => collections["application"].pages,
-        "实验" => collections["laboratory"].pages,
     ],
     :about => Dict(
         :authors => [
