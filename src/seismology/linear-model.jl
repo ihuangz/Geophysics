@@ -11,7 +11,7 @@
 #> layout = "layout.jlhtml"
 #> youtube_id = "H6Dcx3YeTkE"
 #> description = ""
-#> tags = ["lecture", "module3"]
+#> tags = ["lecture", "method"]
 
 using Markdown
 using InteractiveUtils

@@ -1,16 +1,17 @@
 Dict(
     :main => [
-        "Preliminaries" => collections["preliminaries"].pages,
-        "Module 2: Data Science" => collections["module2"].pages,
-        "Module 3: Earth Science" => collections["module3"].pages,
-
+        "简介" => collections["introduction"].pages,
+        "原理" => collections["theory"].pages,
+        "方法" => collections["method"].pages,
+        "应用" => collections["applicatioin"].pages,
+        "实验" => collections["laboratory"].pages,
     ],
     :about => Dict(
         :authors => [
             (name = "黄周传", url = "https://es.nju.edu.cn/hzc/list.htm"),
             (name = "Z. Huang", url = "https://es.nju.edu.cn/hzc_en/list.htm")
         ],
-        :title => "Fundamentals of Geophysics",
+        :title => "固体地球物理学(Solid Earth Geophysics)",
         :subtitle => "Spring 2025",
         :institution => "Nanjing University",
         :institution_url => "https://www.nju.edu.cn",
