@@ -33,7 +33,7 @@ $(
 
 Go to [https://julialang.org/downloads](https://julialang.org/downloads) and download the current stable release, Julia $(version), using the correct version for your operating system (Linux x86, Mac, Windows, etc).
 
-## Step 2: Run Julia, good
+## Step 2: Run Julia, it is different
 
 After installing, **make sure that you can run Julia**. On some systems, this means searching for the "Julia $(version)" program installed on your computer; in others, it means running the command `julia` in a terminal. Make sure that you can execute `1 + 1`:
 
