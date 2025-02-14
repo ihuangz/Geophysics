@@ -1,17 +1,17 @@
 ### A Pluto.jl notebook ###
-# v0.20.3
+# v0.20.4
 
 #> [frontmatter]
-#> chapter = 3
-#> video = "https://www.youtube.com/watch?v=H6Dcx3YeTkE"
-#> image = "https://user-images.githubusercontent.com/6933510/136196552-ce16c06f-bd12-427f-80e5-aedb1fbc734a.png"
-#> section = 7
-#> order = 7
+#> chapter = 4
+#> video = ""
+#> image = ""
+#> section = 0
+#> order = 0
 #> title = "A sample page"
 #> layout = "layout.jlhtml"
-#> youtube_id = "H6Dcx3YeTkE"
+#> youtube_id = ""
 #> description = ""
-#> tags = ["lecture", "method"]
+#> tags = ["lecture", "application"]
 
 using Markdown
 using InteractiveUtils
@@ -25,16 +25,8 @@ using DataFrames
 # ╔═╡ b8a1d747-929f-43d1-9894-bffb72ad7bf3
 #Pkg.activate(".")
 
-# ╔═╡ 56e9db72-7ec8-11ec-2b5e-458367c3b8b7
-# hideall
+# ╔═╡ 78554917-3428-4b02-87cc-585b66f9a641
 title = "Linear model fitting";
-
-# ╔═╡ 061c6a60-7a8f-48ac-8c3c-8306d4d0c3ee
-"""
-+++
-title = "$title"
-+++
-""" |> Base.Text
 
 # ╔═╡ 77a9e4da-f015-4ce6-ba57-60aa5a76193f
 md"""
@@ -130,7 +122,7 @@ DataFrames = "~1.7.0"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.1"
+julia_version = "1.11.3"
 manifest_format = "2.0"
 project_hash = "33f339daacc72a995b00de2c6da03f231a6ceb77"
 
@@ -213,9 +205,9 @@ uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 version = "1.11.0"
 
 [[deps.InvertedIndices]]
-git-tree-sha1 = "0dc7b50b8d436461be01300fd8cd45aa0274b038"
+git-tree-sha1 = "6da3c4316095de0f5ee2ebd875df8721e7e0bdbe"
 uuid = "41ab1584-1d38-5bbf-9106-f11c6c58b48f"
-version = "1.3.0"
+version = "1.3.1"
 
 [[deps.IteratorInterfaceExtensions]]
 git-tree-sha1 = "a3f24677c21f5bbe9d2a714f95dcd58337fb2856"
@@ -253,9 +245,9 @@ uuid = "4536629a-c528-5b80-bd46-f80d51c5b363"
 version = "0.3.27+1"
 
 [[deps.OrderedCollections]]
-git-tree-sha1 = "dfdf5519f235516220579f949664f1bf44e741c5"
+git-tree-sha1 = "cc4054e898b852042d7b503313f7ad03de99c3dd"
 uuid = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
-version = "1.6.3"
+version = "1.8.0"
 
 [[deps.PooledArrays]]
 deps = ["DataAPI", "Future"]
@@ -302,9 +294,9 @@ version = "0.7.0"
 
 [[deps.SentinelArrays]]
 deps = ["Dates", "Random"]
-git-tree-sha1 = "d0553ce4031a081cc42387a9b9c8441b7d99f32d"
+git-tree-sha1 = "712fb0231ee6f9120e005ccd56297abbc053e7e0"
 uuid = "91c51154-3ec4-41a3-a24f-3f23e20d615c"
-version = "1.4.7"
+version = "1.4.8"
 
 [[deps.SortingAlgorithms]]
 deps = ["DataStructures"]
@@ -326,9 +318,9 @@ version = "1.11.1"
 
 [[deps.StringManipulation]]
 deps = ["PrecompileTools"]
-git-tree-sha1 = "a6b1675a536c5ad1a60e5a5153e1fee12eb146e3"
+git-tree-sha1 = "725421ae8e530ec29bcbdddbe91ff8053421d023"
 uuid = "892a3eda-7b42-436c-8928-eab12a02cf0e"
-version = "0.4.0"
+version = "0.4.1"
 
 [[deps.TOML]]
 deps = ["Dates"]
@@ -363,10 +355,9 @@ version = "5.11.0+0"
 """
 
 # ╔═╡ Cell order:
-# ╠═f8672883-5ed7-409f-9ebf-772701ee00e7
-# ╠═b8a1d747-929f-43d1-9894-bffb72ad7bf3
-# ╠═56e9db72-7ec8-11ec-2b5e-458367c3b8b7
-# ╟─061c6a60-7a8f-48ac-8c3c-8306d4d0c3ee
+# ╟─f8672883-5ed7-409f-9ebf-772701ee00e7
+# ╟─b8a1d747-929f-43d1-9894-bffb72ad7bf3
+# ╟─78554917-3428-4b02-87cc-585b66f9a641
 # ╟─77a9e4da-f015-4ce6-ba57-60aa5a76193f
 # ╟─b1d83a81-e86f-4035-b34f-c31b31ce2999
 # ╠═8920aed2-223d-4861-bf83-1891219640a1

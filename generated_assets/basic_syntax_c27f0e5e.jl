@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.14
+# v0.20.4
 
 #> [frontmatter]
 #> chapter = 1
@@ -7,11 +7,17 @@
 #> order = 2
 #> title = "Basic Julia"
 #> layout = "layout.jlhtml"
-#> description = ""
 #> tags = ["introduction"]
+#> description = "An simple introduction to Julia language"
 
 using Markdown
 using InteractiveUtils
+
+# ╔═╡ 8898145b-0ace-456f-98ba-7e27eaa980e3
+#using Pkg
+
+# ╔═╡ 06ead491-0ef4-413d-a0f7-41026134b117
+#Pkg.activate(".")
 
 # ╔═╡ 0d3aec92-edeb-11ea-3adb-cd0dc17cbdab
 md"# Get started with Julia - live
@@ -216,6 +222,8 @@ md"A nice alternative syntax to create matrices following a certain pattern is a
 [i + j for i in 1:5, j in 1:6]
 
 # ╔═╡ Cell order:
+# ╟─8898145b-0ace-456f-98ba-7e27eaa980e3
+# ╟─06ead491-0ef4-413d-a0f7-41026134b117
 # ╟─0d3aec92-edeb-11ea-3adb-cd0dc17cbdab
 # ╟─3b038ee0-edeb-11ea-0977-97cc30d1c6ff
 # ╠═3e8e0ea0-edeb-11ea-22e0-c58f7c2168ce
