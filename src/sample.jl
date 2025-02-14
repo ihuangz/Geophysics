@@ -3,8 +3,8 @@
 
 #> [frontmatter]
 #> chapter = 1
-# #> video = ""
-# #> image = ""
+#> video = ""
+#> image = ""
 #> section = 0
 #> order = 0
 #> title = "A sample page"
