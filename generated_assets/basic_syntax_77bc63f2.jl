@@ -9,6 +9,7 @@
 #> layout = "layout.jlhtml"
 #> tags = ["introduction"]
 #> description = "An simple introduction to Julia language"
+#> tags = ["lecture", "introduction"]
 
 using Markdown
 using InteractiveUtils
