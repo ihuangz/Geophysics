@@ -11,7 +11,7 @@ $(
     begin
         # these special elements will automatically update to read the latest Julia version. See the JavaScript snippet at the bottom of this page to see how it works!
         
-        version = html"<auto-julia-version>1.8.2</auto-julia-version>"
+        version = html"<auto-julia-version>1.11.3</auto-julia-version>"
         pkg_version = html"<auto-julia-version short>1.8</auto-julia-version>"
     
         nothing
@@ -33,7 +33,7 @@ $(
 
 Go to [https://julialang.org/downloads](https://julialang.org/downloads) and download the current stable release, Julia $(version), using the correct version for your operating system (Linux x86, Mac, Windows, etc).
 
-## Step 2: Run Julia, it is different
+## Step 2: Run Julia
 
 After installing, **make sure that you can run Julia**. On some systems, this means searching for the "Julia $(version)" program installed on your computer; in others, it means running the command `julia` in a terminal. Make sure that you can execute `1 + 1`:
 
