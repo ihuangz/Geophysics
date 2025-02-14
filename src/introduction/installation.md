@@ -20,14 +20,6 @@ $(
 
 # First-time setup: Install Julia & Pluto
 
-**Video version:**
-
-<iframe style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/OOjKEgbt8AI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-\\
-\\
-\\
-**Text and pictures version:**
 
 ## Step 1: Install Julia $version
 
@@ -37,7 +29,7 @@ Go to [https://julialang.org/downloads](https://julialang.org/downloads) and dow
 
 After installing, **make sure that you can run Julia**. On some systems, this means searching for the "Julia $(version)" program installed on your computer; in others, it means running the command `julia` in a terminal. Make sure that you can execute `1 + 1`:
 
-![image](https://user-images.githubusercontent.com/6933510/91439734-c573c780-e86d-11ea-8169-0c97a7013e8d.png)
+![image](https://box.nju.edu.cn/f/238067a12286439396bc/?dl=1)
 
 *Make sure that you are able to launch Julia and calculate `1+1` before proceeding!*
 
@@ -66,14 +58,7 @@ You should only need to do this *once* for each installation of Julia:
 (&#64;v$(pkg_version)) pkg> add Pluto
 </code></pre>
 
-This might take a couple of minutes, so you can go get yourself a cup of tea!
-
-![image](https://user-images.githubusercontent.com/6933510/91440380-ceb16400-e86e-11ea-9352-d164911774cf.png)
-
-You can now close the terminal.
-
-## Step 4: Use a modern browser: Mozilla Firefox or Google Chrome
-We need a modern browser to view Pluto notebooks with. Firefox and Chrome work best.
+This might take a couple of minutes, so you can go get yourself a cup of tea! Afterwards, you can now close the terminal.
 
 
 # Second time: _Running Pluto & opening a notebook_
@@ -88,11 +73,11 @@ julia> using Pluto
 julia> Pluto.run()
 ```
 
-![image](https://user-images.githubusercontent.com/6933510/91441094-eb01d080-e86f-11ea-856f-e667fdd9b85c.png)
+![image](https://box.nju.edu.cn/f/614bdbca634f47cda6a6/?dl=1)
 
 The terminal tells us to go to `http://localhost:1234/` (or a similar URL). Let's open Firefox or Chrome and type that into the address bar.
 
-![image](https://user-images.githubusercontent.com/6933510/199279574-4b1d0494-2783-49a0-acca-7b6284bede44.png)
+![image](https://box.nju.edu.cn/f/402e06aedbdc400586ae/?dl=1)
 
 > If you're curious about what a _Pluto notebook_ looks like, have a look at the **Featured Notebooks**. These notebooks are useful for learning some basics of Julia programming. 
 > 
@@ -118,17 +103,7 @@ If you want to run a local notebook file that you have not opened before, then y
 ## Step 3: Saving a notebook
 We first need a folder to save our homework in. Open your file explorer and create one. 
 
-Next, we need to know the _absolute path_ of that folder. Here's how you do that in [Windows](https://www.top-password.com/blog/copy-full-path-of-a-folder-file-in-windows/), [MacOS](https://www.josharcher.uk/code/find-path-to-folder-on-mac/) and [Ubuntu]().
-
-For example, you might have:
-
-- `C:\\Users\\fons\\Documents\\18S191_assignments\\` on Windows
-
-- `/Users/fons/Documents/18S191_assignments/` on MacOS
-
-- `/home/fons/Documents/18S191_assignments/` on Ubuntu
-
-Now that we know the absolute path, go back to your Pluto notebook, and at the top of the page, click on _"Save notebook..."_. 
+Next, we need to know the _absolute path_ of that folder. Go back to your Pluto notebook, and at the top of the page, click on _"Save notebook..."_. 
 
 ![image](https://user-images.githubusercontent.com/6933510/91444741-77fb5880-e875-11ea-8f6b-02c1c319e7f3.png)
 
@@ -138,22 +113,3 @@ This is where you type the **new path+filename for your notebook**:
 
 Click _Choose_.
 
-## Step 4: Sharing a notebook
-
-After working on your notebook (your code is autosaved when you run it), you will find your notebook file in the folder we created in step 3. This the file that you can share with others, or submit as your homework assignment to Canvas.
-
-
-<script defer>
-const run = f => f();
-run(async () => {
-const versions = await (await fetch(`https://julialang-s3.julialang.org/bin/versions.json`)).json()
-const version_names = Object.keys(versions).sort().reverse()
-const stable = version_names.find(v => versions[v].stable)
-console.log({stable})
-const pkg_stable = /\\d+\\.\\d+/.exec(stable)[0]
-document.querySelectorAll("auto-julia-version").forEach(el => {
-    console.log(el)
-    el.innerText = el.getAttribute("short") == null ? stable : pkg_stable
-})
-});
-</script>
